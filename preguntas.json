@@ -1,0 +1,632 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuál es el propósito de un balanceador de carga?",
+        "opciones": [
+            "Distribuir el tráfico de red entre varios servidores",
+            "Almacenar datos de forma persistente",
+            "Monitorear el rendimiento del sistema"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Qué comando se utiliza para verificar la conectividad de red en Linux?",
+        "opciones": [
+            "ls",
+            "ping",
+            "mkdir"
+        ],
+        "respuesta_correcta": 1
+    },
+        {
+        "id": 1,
+        "pregunta": "What is SRE, and how does it differ from DevOps?",
+        "opciones": [
+            "SRE focuses on reliability and uptime, while DevOps emphasizes collaboration and automation.",
+            "SRE is a subset of DevOps, primarily concerned with incident management.",
+            "SRE and DevOps are the same, and both aim to improve development and operational efficiency."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 2,
+        "pregunta": "Describe the concept of SLIs, SLOs, and SLAs.",
+        "opciones": [
+            "SLIs are metrics that indicate service health, SLOs are targets for those metrics, and SLAs are formal agreements on service performance.",
+            "SLIs are only used for monitoring, SLOs are optional, and SLAs are outdated.",
+            "SLIs and SLOs are the same, while SLAs are for business only."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 3,
+        "pregunta": "How do you prioritize incidents during a service outage?",
+        "opciones": [
+            "Based on customer impact and severity of the incident.",
+            "By resolving the easiest issues first.",
+            "Prioritizing issues based on team preferences."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 4,
+        "pregunta": "What strategies do you use for capacity planning?",
+        "opciones": [
+            "Historical usage analysis and trend forecasting.",
+            "Guessing based on previous projects.",
+            "Only scaling up when outages occur."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 5,
+        "pregunta": "How do you implement monitoring for a distributed system?",
+        "opciones": [
+            "Using a combination of application performance monitoring (APM), logs, and metrics.",
+            "Only relying on server health checks.",
+            "Not implementing any monitoring."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 6,
+        "pregunta": "Explain the concept of 'error budgets.'",
+        "opciones": [
+            "The amount of time a service can be down without breaching its SLO.",
+            "The total cost of errors in a project.",
+            "A method of budgeting for new features."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 7,
+        "pregunta": "What is the purpose of a runbook?",
+        "opciones": [
+            "To provide standardized instructions for responding to incidents.",
+            "To document financial transactions.",
+            "To serve as a project proposal."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 8,
+        "pregunta": "How do you ensure that the team learns from incidents?",
+        "opciones": [
+            "By conducting postmortems and implementing action items.",
+            "By ignoring incidents after they are resolved.",
+            "By only documenting incidents in a shared drive."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 9,
+        "pregunta": "What tools do you use for log management?",
+        "opciones": [
+            "ELK Stack, Splunk, or similar log aggregation tools.",
+            "Text files and manual searching.",
+            "Spreadsheets."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 10,
+        "pregunta": "How do you handle configuration management?",
+        "opciones": [
+            "Using tools like Ansible, Puppet, or Chef.",
+            "By manually configuring servers each time.",
+            "Configuration management is unnecessary."
+        ],
+        "respuesta_correcta": 0
+    },
+        {
+        "id": 1,
+        "pregunta": "What is the primary goal of Site Reliability Engineering?",
+        "opciones": [
+            "To improve the reliability of services while maintaining feature velocity.",
+            "To strictly adhere to traditional operations methodologies.",
+            "To ensure that developers are solely responsible for their code in production."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 2,
+        "pregunta": "What is an SLO?",
+        "opciones": [
+            "A Service Level Objective, a target level of service.",
+            "A Service Level Operation, a routine maintenance task.",
+            "A Service Level Oversight, a regulatory requirement."
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 3,
+        "pregunta": "What tool would you use for monitoring application performance?",
+        "opciones": [
+            "Grafana",
+            "GitHub",
+            "JIRA"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 4,
+        "pregunta": "What is an error budget?",
+        "opciones": [
+            "The acceptable level of service unavailability in a given period.",
+            "A budget allocated for fixing errors in software.",
+            "A financial budget for purchasing software licenses."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 5,
+        "pregunta": "What does the acronym 'Kubernetes' refer to?",
+        "opciones": [
+            "An open-source container orchestration platform.",
+            "A proprietary cloud service.",
+            "A type of database technology."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 6,
+        "pregunta": "What is the purpose of chaos engineering?",
+        "opciones": [
+            "To test the resilience of systems under unexpected failures.",
+            "To conduct routine maintenance on systems.",
+            "To develop new features in a production environment."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 7,
+        "pregunta": "How do you ensure high availability in your services?",
+        "opciones": [
+            "By implementing redundancy and failover strategies.",
+            "By maintaining a single server instance.",
+            "By avoiding regular updates to the service."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 8,
+        "pregunta": "What is a runbook?",
+        "opciones": [
+            "A document that contains operational procedures and troubleshooting steps.",
+            "A book for recording financial transactions.",
+            "A manual for setting up development environments."
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 9,
+        "pregunta": "What is a blue-green deployment?",
+        "opciones": [
+            "A deployment strategy that reduces downtime by having two identical environments.",
+            "A way to deploy applications to multiple regions.",
+            "A method for deploying to a single instance only."
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 10,
+        "pregunta": "How do you handle secrets management?",
+        "opciones": [
+            "Using a dedicated secrets management tool.",
+            "Hardcoding secrets into the application.",
+            "Storing secrets in plain text files."
+        ],
+        "respuesta_correcta": 0
+    },
+            {
+        "id": 11,
+        "pregunta": "Which tool is commonly used for container orchestration?",
+        "opciones": [
+            "GitLab",
+            "Terraform",
+            "Kubernetes"
+        ],
+        "respuesta_correcta": 2
+    },
+    {
+        "id": 12,
+        "pregunta": "What tool is primarily used for infrastructure as code (IaC)?",
+        "opciones": [
+            "Ansible",
+            "Terraform",
+            "Docker"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 13,
+        "pregunta": "What is the main purpose of Prometheus?",
+        "opciones": [
+            "To orchestrate containers",
+            "To monitor and alert on system performance",
+            "To deploy applications"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 14,
+        "pregunta": "Which tool is used for centralized log management?",
+        "opciones": [
+            "Kubernetes",
+            "Elasticsearch",
+            "Jenkins"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 15,
+        "pregunta": "Which command would you use to check running processes on a Linux system?",
+        "opciones": [
+            "ps",
+            "cd",
+            "rm"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 16,
+        "pregunta": "Which tool would you use to create CI/CD pipelines?",
+        "opciones": [
+            "Jenkins",
+            "Docker",
+            "Redis"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 17,
+        "pregunta": "Which tool is primarily used for automating server configuration?",
+        "opciones": [
+            "Jenkins",
+            "Ansible",
+            "MySQL"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 18,
+        "pregunta": "Which Linux command is used to display the disk usage of a file system?",
+        "opciones": [
+            "du",
+            "ls",
+            "df"
+        ],
+        "respuesta_correcta": 2
+    },
+    {
+        "id": 19,
+        "pregunta": "What tool is commonly used for containerization?",
+        "opciones": [
+            "Docker",
+            "Kubernetes",
+            "Nagios"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 20,
+        "pregunta": "What is the primary purpose of Grafana?",
+        "opciones": [
+            "To monitor logs",
+            "To visualize and analyze metrics",
+            "To manage databases"
+        ],
+        "respuesta_correcta": 1
+    },
+        {
+        "id": 21,
+        "pregunta": "Which tool is used for managing container images?",
+        "opciones": [
+            "Kubernetes",
+            "Docker",
+            "Prometheus"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 22,
+        "pregunta": "Which tool would you use for network monitoring?",
+        "opciones": [
+            "Nagios",
+            "Terraform",
+            "Jenkins"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 23,
+        "pregunta": "Which command in Linux is used to search for a specific text within files?",
+        "opciones": [
+            "find",
+            "grep",
+            "touch"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 24,
+        "pregunta": "What is the primary function of Terraform?",
+        "opciones": [
+            "Container orchestration",
+            "Infrastructure as Code",
+            "Log aggregation"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 25,
+        "pregunta": "Which tool would you use for database management?",
+        "opciones": [
+            "Prometheus",
+            "Grafana",
+            "MySQL"
+        ],
+        "respuesta_correcta": 2
+    },
+    {
+        "id": 26,
+        "pregunta": "Which Linux command would you use to show the current working directory?",
+        "opciones": [
+            "ls",
+            "pwd",
+            "ps"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 27,
+        "pregunta": "Which tool is commonly used for log aggregation?",
+        "opciones": [
+            "Elasticsearch",
+            "Terraform",
+            "Grafana"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 28,
+        "pregunta": "Which command is used to display network interfaces in Linux?",
+        "opciones": [
+            "ifconfig",
+            "ls",
+            "ps"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 29,
+        "pregunta": "What tool is used for real-time alerting based on metrics?",
+        "opciones": [
+            "Prometheus",
+            "Grafana",
+            "Alertmanager"
+        ],
+        "respuesta_correcta": 2
+    },
+    {
+        "id": 30,
+        "pregunta": "What is the purpose of a reverse proxy?",
+        "opciones": [
+            "To distribute incoming requests across multiple servers",
+            "To cache requests for faster response times",
+            "To handle requests from the backend to the client"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 31,
+        "pregunta": "Which tool is commonly used for container orchestration?",
+        "opciones": [
+            "Docker",
+            "Kubernetes",
+            "Jenkins"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 32,
+        "pregunta": "What is the primary function of a CI/CD pipeline?",
+        "opciones": [
+            "To automate the software delivery process",
+            "To manage database connections",
+            "To monitor system performance"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 33,
+        "pregunta": "Which protocol is commonly used for secure shell access?",
+        "opciones": [
+            "HTTP",
+            "FTP",
+            "SSH"
+        ],
+        "respuesta_correcta": 2
+    },
+    {
+        "id": 34,
+        "pregunta": "What is the purpose of a load balancer?",
+        "opciones": [
+            "To distribute network traffic across multiple servers",
+            "To encrypt network traffic",
+            "To compress data for faster transmission"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 35,
+        "pregunta": "Which tool is commonly used for infrastructure as code?",
+        "opciones": [
+            "Ansible",
+            "Terraform",
+            "Jenkins"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 36,
+        "pregunta": "What is the purpose of chaos engineering in SRE?",
+        "opciones": [
+            "To intentionally introduce failures to test system resilience",
+            "To optimize database performance",
+            "To automate code deployment"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 37,
+        "pregunta": "Which monitoring philosophy does SRE typically follow?",
+        "opciones": [
+            "Reactive monitoring",
+            "Proactive monitoring",
+            "No monitoring"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 38,
+        "pregunta": "What is the primary goal of implementing a service mesh?",
+        "opciones": [
+            "To improve network security",
+            "To manage microservices communication",
+            "To increase storage capacity"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 39,
+        "pregunta": "Which concept in SRE refers to the acceptable level of errors or failures?",
+        "opciones": [
+            "Error budget",
+            "Failure quota",
+            "Downtime allowance"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 40,
+        "pregunta": "What is the primary advantage of using a blue-green deployment strategy in a microservices architecture?",
+        "opciones": [
+            "It allows for zero-downtime deployments and easy rollbacks",
+            "It improves database query performance in distributed systems",
+            "It automatically scales services based on incoming traffic"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 41,
+        "pregunta": "In the context of distributed tracing, what is the purpose of a trace context?",
+        "opciones": [
+            "To encrypt sensitive data in transit",
+            "To propagate metadata across service boundaries for request tracking",
+            "To optimize database indexing in microservices"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 42,
+        "pregunta": "What is the significance of using a Circuit Breaker pattern in a microservices ecosystem?",
+        "opciones": [
+            "To prevent cascading failures and improve system resilience",
+            "To encrypt inter-service communication",
+            "To automatically scale services based on CPU utilization"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 43,
+        "pregunta": "In the context of Kubernetes, what is the purpose of a DaemonSet?",
+        "opciones": [
+            "To ensure a pod runs on all (or some) nodes in the cluster",
+            "To automatically scale the number of pod replicas",
+            "To manage stateful applications in a cluster"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 44,
+        "pregunta": "What is the role of a ConfigMap in Kubernetes?",
+        "opciones": [
+            "To store sensitive information like passwords and API keys",
+            "To define the desired state of pods and replicas",
+            "To store configuration data separately from application code"
+        ],
+        "respuesta_correcta": 2
+    },
+    {
+        "id": 45,
+        "pregunta": "In Kubernetes, what is the purpose of a Service?",
+        "opciones": [
+            "To automatically scale the number of pod replicas",
+            "To provide a stable network endpoint for accessing a set of pods",
+            "To manage the deployment of new application versions"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 46,
+        "pregunta": "What is the main function of an Ingress in Kubernetes?",
+        "opciones": [
+            "To manage external access to services within a cluster",
+            "To ensure high availability of the control plane",
+            "To schedule pods on appropriate nodes"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 47,
+        "pregunta": "What is the purpose of a Helm Chart in Kubernetes?",
+        "opciones": [
+            "To define, install, and upgrade complex Kubernetes applications",
+            "To monitor cluster health and performance",
+            "To manage network policies between pods"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 48,
+        "pregunta": "In Kubernetes, what is a PersistentVolume used for?",
+        "opciones": [
+            "To store configuration data for applications",
+            "To provide durable storage that exists beyond the lifecycle of a pod",
+            "To cache frequently accessed data for faster retrieval"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 49,
+        "pregunta": "What is the role of etcd in a Kubernetes cluster?",
+        "opciones": [
+            "To schedule pods on nodes",
+            "To store the cluster's configuration data and state",
+            "To manage container runtime operations"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "id": 50,
+        "pregunta": "What is the purpose of a Kubernetes Operator?",
+        "opciones": [
+            "To automate the management of complex, stateful applications",
+            "To optimize network traffic between nodes",
+            "To provide a graphical user interface for cluster management"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "id": 51,
+        "pregunta": "What is the primary benefit of implementing GitOps in a CI/CD pipeline?",
+        "opciones": [
+            "It improves database query performance",
+            "It ensures the desired state of the infrastructure is version controlled and automated",
+            "It automatically scales services based on memory usage"
+        ],
+        "respuesta_correcta": 1
+    }
+]
